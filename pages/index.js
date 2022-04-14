@@ -27,7 +27,7 @@ export default function Recipes({recipes})
       {
         recipes.map(recipe => (
           <div>
-            <RecipeCrd key={recipe.sys.id} recipe = {recipe}/>
+            <RecipeCrd key={recipe.sys.id.toString()} recipe = {recipe}/>
         </div>
         ))
       }
