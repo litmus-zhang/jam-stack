@@ -1,5 +1,6 @@
 import { createClient } from "contentful"
 import RecipeCrd from "../components/RecipeCrd";
+
 export async function getStaticProps()
 { 
   const client = createClient({
